@@ -1,0 +1,61 @@
+﻿.gameContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.scoresWrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 500px; 
+    margin-bottom: 10px;
+}
+
+#scoreBoard {
+    
+}
+
+#highScoreBoard {
+    
+}
+
+.gameBoard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: #ffffff
+}
+
+.gameBorder{
+    border: 5px solid #00ff21;
+    position: relative;
+}
+
+#gameBoard {
+    display: grid;
+    grid-template-columns: repeat(20, 1fr);
+    grid-template-rows: repeat(20, 1fr);
+    height: 500px;
+    width: 500px;
+    background-color: #8dccc1
+}
+
+#startButton {
+    margin-top: 10px;
+}
+
+.snakeSegment {
+    background: #fafc08;
+    width: 100%;
+    height: 100%;
+}
+
+.foodItem {
+    background: #ff0000;
+    width: 100%;
+    height: 100%;
+}
+
